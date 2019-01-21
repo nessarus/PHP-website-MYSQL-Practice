@@ -1,4 +1,4 @@
-# MySQL Sales Queries
+# Transaction Queries
 
 This project using MySQL, HTML and PHP to create a website and database for sale of products. 
 
