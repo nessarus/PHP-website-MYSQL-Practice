@@ -2,7 +2,7 @@
 
 My project using MySQL, HTML and PHP to create a website and database for sale of products. 
 
-The university server used to run the project is now defunct. 
+The university server used to run the website and database is now defunct. 
 
 Database: 20163079.sql  
 Webpages: BuyingTransaction.php, NewArriving.php
