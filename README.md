@@ -1,6 +1,6 @@
-# PHP Website MySQL Database Project
+# MySQL Sales Queries
 
-My project using MySQL, HTML and PHP to create a website and database for sale of products. 
+This project using MySQL, HTML and PHP to create a website and database for sale of products. 
 
 The university server used to run the website and database is now defunct. 
 
