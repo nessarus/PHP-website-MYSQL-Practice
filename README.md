@@ -1,4 +1,4 @@
-# Transaction Queries
+# Transaction Database
 
 This project uses MySQL, HTML and PHP to create a website and database for sale of products. 
 
