@@ -1,14 +1,12 @@
 <?php
-	$username="20163079";
-	$password="Z5QcD2QS";
-	$server="localhost";
-	$database="DB_20163079";
+    include '../studentdetails.php';
+    
 	$conn=mysqli_connect($server, $username, $password, $database);
 	if (!$conn) {
 	  die("Connection failed: " . mysqli_connect_error());
 	  echo "\"" . $database . "\" <font color=#FF0000>Connection Failed</font>";
 	} 
-	mysql_select_db($database, $conn);
+	mysqli_select_db($conn, $database);
 ?>
 
 <html>
@@ -151,7 +149,7 @@ else
 		echo "Total: $".$total."<br>"; 
 	}
 	
-	mysql_close($conn);
+	mysqli_close($conn);
 }
 ?>
 

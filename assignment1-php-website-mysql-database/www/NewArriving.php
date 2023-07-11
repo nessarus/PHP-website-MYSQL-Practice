@@ -20,6 +20,8 @@
 </html>
 
 <?php
+include '../studentdetails.php';
+
 if(!isset($_POST['submit_pressed']))
 {
 	
@@ -30,16 +32,12 @@ elseif($_POST['name']=="" || $_POST['price']=="" || $_POST['stock']=="")
 }
 else
 {
-	$username="20163079";
-	$password="Z5QcD2QS";
-	$server="localhost";
-	$database="DB_20163079";
 	$conn=mysqli_connect($server, $username, $password, $database);
 	if (!$conn) {
 	  die("Connection failed: " . mysqli_connect_error());
 	  echo "\"" . $database . "\" <font color=#FF0000>Connection Failed</font>";
 	} 
-	mysql_select_db($database, $conn);
+	mysqli_select_db($conn, $database);
 
 	$name = $_POST["name"];
 	$price = $_POST["price"];
@@ -56,7 +54,7 @@ else
 		echo "1 record added";
 	}
 	
-	mysql_close($conn);
+	mysqli_close($conn);
 }
 ?>
 

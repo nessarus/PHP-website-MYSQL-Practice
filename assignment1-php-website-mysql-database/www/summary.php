@@ -1,13 +1,3 @@
-<!doctype html>
-<html>
-  <head>
-    <title>Transaction Database</title>
-  </head>
-  <body>
-
-  </body>
-</html>
-
 <html>
  <head>
   <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
@@ -163,12 +153,7 @@
      <div align=center style="background-color:#FFC000; height:6px">
      </div>
    </div>
-   
    <div class="bodyMain">
-     <a href="BuyingTransaction.php">Buying Transaction</a>
-     <br>
-     <a href="NewArriving.php">New Arriving</a>
-     <br>
 
      <?php
      echo "<br>";

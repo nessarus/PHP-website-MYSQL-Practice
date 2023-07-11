@@ -2,7 +2,7 @@
 
 This project uses MySQL, HTML and PHP to create a website and database for sale of products. 
 
-The university server used to run the website and database is now defunct. 
+https://transactionsdatabase.000webhostapp.com/
 
 Database: 20163079.sql  
 Webpages: BuyingTransaction.php, NewArriving.php
